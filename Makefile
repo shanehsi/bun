@@ -1305,7 +1305,7 @@ find-unused-zig-files:
 	@bash ./misctools/find-unused-zig.sh
 
 generate-unit-tests:
-	@bash ./misctools/generate-test-file.sh
+	@bash ./misctools/generate-tests-file.sh
 
 fmt-all:
 	find src -name "*.zig" -exec $(ZIG) fmt {} \;
